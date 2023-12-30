@@ -1,0 +1,28 @@
+body{
+    background: skyblue;
+}
+h2:hover
+{
+    color: red;
+}
+.subtitle
+{
+    color: blue;
+}
+
+#services
+{
+    color: green;
+}
+li:nth-child(1){
+    color: blueviolet;
+}
+td:only-child{
+    color: blue;
+}
+#google-link:link{
+color: blue;
+}
+#google-link :visited{
+color: red;
+}
