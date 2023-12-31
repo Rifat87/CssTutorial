@@ -93,7 +93,7 @@ ul li {
  img[src *= "../img/"] {
     border: 10px solid black;
  }
-
+/* to select and spaced tittle we can use this type */
  h2[class ~= article-subtitle]{
     background: green;
  }
