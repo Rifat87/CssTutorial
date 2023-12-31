@@ -26,3 +26,77 @@ color: blue;
 #google-link :visited{
 color: red;
 }
+
+
+----------------------------------------------------+++++++++++++++++++++++++++++++++++++++++++++---------------------------------------------------
+/*// Day 26 last edited*/
+body{
+    background: skyblue;
+}
+h2:hover
+{
+    color: red;
+}
+.subtitle
+{
+    color: blue;
+}
+/* h2[class = subtitle]
+{
+    color: blue;
+} */
+
+#services
+{
+    color: green;
+}
+/* li:nth-child(1){
+    color: blueviolet;
+} */
+/* li :only-child{
+    color: purple;
+} */
+td:only-child{
+    color: purple;
+}
+/* #google-link:link{
+color: blue;
+}
+#google-link :visited{
+color: red;
+} */
+
+#contact + a {
+    color: red;
+}
+
+textarea ~ button {
+    color: purple;
+    /* It's important to note that the general sibling combinator (~) selects siblings that share the same parent, and it selects all siblings that match the specified element, not just the immediately following one. If you specifically want to target the immediately following sibling, you would use the adjacent sibling combinator (+) like this: textarea + button {}. */
+}
+ul > li {
+    color: blue;
+}
+
+ul li {
+    color: green;
+}
+ /* ol > li{
+    color: red;
+ } */
+
+/* (^=) every source starts with
+    ($=) every source ends with
+    (*=) anywhere in the code
+*/
+
+ img[src *= "../img/"] {
+    border: 10px solid black;
+ }
+
+ h2[class ~= article-subtitle]{
+    background: green;
+ }
+ h2[class |= article-subtitle]{
+    background: green;
+ }
