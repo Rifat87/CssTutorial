@@ -1,0 +1,62 @@
+body{
+    background: linear-gradient(to left bottom, rgb(220, 123, 123), rgb(130, 130, 213), rgba(123, 123,234, .51) , rgba(0,0, 0, 0.12));
+    font-size: 1.25em;
+    /* text-transform: uppercase;
+    text-transform: capitalize; */
+
+    
+    /* text-align: left;
+    text-align: right;
+    text-align: center; */
+    text-align: justify;
+
+    /* font-family: sans-serif; */
+    font-family: "Lato";
+}
+#title{
+    color: rgb(186, 133, 9);
+    /* font-weight: 400; */
+    font-family: "sarabun", sans-serif;
+}
+
+.subtitle{
+    color: rgb(87, 97, 187);
+    font-family: "sarabun", sans-serif;
+}
+#service-image{
+    height: 400px;
+    width: 70%;
+
+    /* background: url(../img/img-2.jpg); */
+    /* background: linear-gradient(to left bottom, rgb(220, 123, 123), rgb(130, 130, 213), rgba(123, 123,234, .51) , rgba(0,0, 0, 0.12)); */
+    /* background: linear-gradient(145deg, rgb(220, 123, 123), rgb(130, 130, 213), rgba(123, 123,234, .51) , rgba(0,0, 0, 0.12)); */
+
+    background: radial-gradient(circle, red 10%, green 15%,blue 80%);
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.link{
+    /* text-decoration: none;
+    text-decoration: underline;
+    text-decoration: line-through;
+    text-decoration: overline; */
+}
+
+.italic{
+    font-style: normal;
+    font-style: italic;
+    font-style: oblique;
+}
+
+.font{
+    font-style: italic;
+    text-decoration: underline;
+    text-align: right;
+    font-weight: 800;
+}
+
+#about-us-image{
+    height: 300px;
+    width: 60%;
+}
