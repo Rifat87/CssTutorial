@@ -1,0 +1,98 @@
+
+
+.content{
+    animation-name: fade-in;
+    animation-duration: 2s;
+}
+.sidebar{
+    animation-name: fade-in;
+    animation-duration: 2s;
+}
+
+
+
+body{
+    background: lightblue;
+}
+
+
+li{
+    font-family: "Lato", sans-serif;
+}
+
+h1{
+    font-family: "Roboto Condensed", sans-serif;
+}
+h2{
+    font-family: "Roboto Condensed", sans-serif;
+}
+a{
+    font-family: "lato", sans-serif;
+}
+
+.sidebar{
+    background: rgb(209, 228, 117);
+}
+
+img{
+    width: 400px;
+    height: 200px;
+    transition: 1s all;
+}
+
+img:hover{
+    height: 250px;
+    width: 500px;
+}
+#main{
+    display: grid;
+    grid-template-columns: 70% 20% 10% 20%;
+    grid-gap: 50px;
+}
+
+.image-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-grid > img{
+    margin: 10px;
+}
+
+#image-1{
+    float: right;
+    margin: 10px;
+}
+
+.post{
+    border: 2px solid royalblue;
+    margin: 10px;
+}
+
+.post-title{
+    margin-left: 5px;
+}
+.post-text{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.post > a{
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: .5s color;
+}
+
+.post > a:hover{
+    color: aqua;
+}
+
+@keyframes fade-in{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
